@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.8.4 - candidate
+
+- Added a bilingual English/Italian MakeCode tutorial and matching localized help pages.
+- Reorganized the public documentation around installation, API, wiring, memory, effects and verified Micro:Bit V1/V2 support.
+- Expanded release verification into independent realistic TypeScript projects for creation, configuration, text, geometry, scrolling, gradients, effects and Graphics.
+- Documented that the monolithic `pxt test` harness exceeds the V1 program-size limit while the independent V1/V2 feature projects compile successfully.
+- Kept runtime code, public signatures, block metadata and behavior unchanged.
+
+## 0.8.3 - 2026-09-07
+
+- Fixed MakeCode Matrix block metadata so code written in JavaScript or Python decompiles with the original matrix instance variable.
+- Restored the standard replaceable color dropdown shadow for color parameters, including RGB block compatibility.
+- Kept runtime behavior, public function signatures and block logic unchanged.
+
 ## 0.8.2 - candidate
 
 - Added the Micro:Bit proportional font while preserving all existing font enum values and behavior.
